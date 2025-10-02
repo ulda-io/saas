@@ -6,8 +6,12 @@
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "type": "module",
+  "bugs": {
+    "url": "https://github.com/ulda-io/saas"
+  },
+  "homepage": "https://ulda.io/",
   "scripts": {
     "dev": "vite",
     "build": "tsc",
