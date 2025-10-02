@@ -1,4 +1,5 @@
-// INFO copy of 0am for dev purpose
+// Licensed under ULDA-NC-1.0 — see LICENSE
+// © 2025 Mark Shaposhnik / ZeroAM
 
 import { Socket } from 'socket.io-client'
 import { SocketApi } from './socket'
