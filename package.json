@@ -2,11 +2,11 @@
   "name": "@zeroam/ulda",
   "description": "Universal Linear Data Authentication algorithm",
   "author": "iammarguuss",
-  "license": "ULDA CL",
+  "license": "ULDA-NC Headers (v1.0)",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -1,135 +1,163 @@
-Copyright © 2025 Shaposhnik Oam & Services IT
-(doing business as **ZeroAM**)
+# ULDA-NC Headers (v1.0)
+This sheet provides multiple language-specific header variants compatible with Section 3.1 of ULDA-NC-1.0.
+Pick ONE per file type. Prefer the SPDX one-liner when your tooling supports it.
 
----
-
-### 0. DEFINITIONS
-
-**“Software”** – the ULDA library: source code, object code, build scripts, documentation, sample projects and any files
-that reference this license header.
-**“Modified Version”** – any work, derivative or collective, that is based on or incorporates the Software, in whole or
-in part, with or without changes.
-**“Product or Service”** – any commercial good, application, library, device, SaaS, PaaS, hosted or managed offering
-created, marketed, or distributed by Licensee.
-**“Licensee”** – the individual or legal entity that has obtained rights under this Commercial License.
-**“Licensor”** – Shaposhnik Oam & Services IT (d/b/a 0AM), holder of all worldwide rights in the Software.
-
----
-
-### 1. GRANT OF RIGHTS
-
-Subject to full compliance with this License, Licensor hereby grants Licensee a worldwide, royalty-free (except for the
-one-time or subscription fee paid for this license), **non-exclusive, non-transferable, perpetual** license to:
-
-1. **Use** – install, execute and otherwise operate the Software for any lawful purpose, including internal business
-   operations.
-2. **Modify & Create Derivatives** – alter, adapt, improve, port, or otherwise create Modified Versions.
-3. **Reproduce & Distribute** – copy and redistribute the Software or Modified Versions, in source or binary form, **as
-   an integrated component** of Licensee’s Product or Service.
-4. **SaaS / Hosting** – make the functionality of the Software or a Modified Version available to third parties via a
-   hosted, managed, cloud, or API offering.
-
-Except as expressly set forth in Section 2, no additional rights or implied licenses are granted.
-
----
-
-### 2. RESTRICTIONS & CONDITIONS
-
-2.1 **No Stand-Alone Resale.** Licensee may not resell, sublicense, or otherwise make the Software available **as a
-stand-alone library** or development toolkit to third parties. Distribution must be strictly as part of Licensee’s
-Product or Service.
-
-2.2 **Preservation of Notices.** All copyright, license, and attribution notices originally contained in the Software *
-*must remain intact** in any copy or Modified Version that is distributed in source form. For binary-only distribution,
-Licensee shall include an appropriate third-party notice file or “About” dialog attributing the Software to Licensor.
-
-2.3 **Modification Notice.** When distributing a Modified Version, Licensee shall add a clear notice stating:
-> “This file/software has been modified by [Licensee Name] on [Date].”
-
-2.4 **Trademark Reservation.** Nothing in this License grants any right to use the trademarks “ULDA”, “0am”, or
-associated logos except descriptive references such as “powered by ULDA”. Any other trademark use requires prior written
-consent of Licensor.
-
-2.5 **No Misrepresentation.** Licensee must not misstate the origin of the Software nor imply Licensor’s endorsement of
-Licensee’s Product or Service without written agreement.
-
-2.6 **Compliance with Law.** Licensee shall not use the Software in violation of applicable laws or regulations,
-including (but not limited to) export control, sanctions, or data-protection laws.
-
-2.7 **Non-Transfer & No Sublicense.** This License is personal to Licensee and may not be assigned or sublicensed,
-except that Licensee’s end-users may utilize the Software **only within** Licensee’s Product or Service as permitted
-above.
-
----
-
-### 3. LICENSE HEADER REQUIREMENT
-
-Every source file or significant fragment of the Software or a Modified Version distributed by Licensee shall begin
-with:
-
+## Canonical Options (use one)
+**A) SPDX (preferred):**
 ```
-This file is licensed under the ULDA Commercial License v1.0
-© 2025 0am
+// SPDX-License-Identifier: ULDA-NC-1.0
+```
+*Alt for custom SPDX registries:*
+```
+// SPDX-License-Identifier: LicenseRef-ULDA-NC-1.0
 ```
 
-A copy of this License must accompany the distributed source.
+**B) Two short lines:**
+```
+// Licensed under ULDA-NC-1.0 — see LICENSE
+// © 2025 Mark Shaposhnik / ZeroAM
+```
+
+**C) Full minimal (multi-line allowed as appropriate):**
+```
+// This file is licensed under ULDA-NC-1.0 — see LICENSE.
+// © 2025 Mark Shaposhnik / Shaposhnik Oam & Services IT (d/b/a ZeroAM)
+```
+
+**Modification mark (when distributing modified code):**
+```
+// This file/software has been modified by ACME Corp on 2025-10-01.
+```
 
 ---
 
-### 4. INTELLECTUAL PROPERTY
+## Language-Specific Examples
 
-The Software is licensed, not sold. Title, ownership and all intellectual-property rights in the Software remain with
-Licensor. All rights not expressly granted are reserved.
+### C / C++ / Java / C# / Go (line comments)
+```
+// SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### C / C++ / Java / C# / Go (block)
+```
+/*
+ * Licensed under ULDA-NC-1.0 — see LICENSE
+ * © 2025 Mark Shaposhnik / ZeroAM
+ */
+```
+
+### JavaScript / TypeScript
+```
+// SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### Python
+```
+# SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### Bash / Shell
+```
+# SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### Rust
+```
+// SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### Swift / Kotlin
+```
+// SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### Ruby
+```
+# SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### PHP
+```php
+<?php
+// SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### HTML
+```html
+<!-- SPDX-License-Identifier: ULDA-NC-1.0 -->
+```
+
+### CSS
+```css
+/* SPDX-License-Identifier: ULDA-NC-1.0 */
+```
+
+### XML
+```xml
+<!-- SPDX-License-Identifier: ULDA-NC-1.0 -->
+```
+
+### SQL
+```sql
+-- SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### PowerShell
+```
+# SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### Windows Batch (.bat)
+```
+:: SPDX-License-Identifier: ULDA-NC-1.0
+REM Alternatively: REM SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### MATLAB / Octave
+```
+% SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### R
+```
+# SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### LaTeX
+```
+% SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### YAML / TOML
+```
+# SPDX-License-Identifier: ULDA-NC-1.0
+```
+
+### INI
+```
+; SPDX-License-Identifier: ULDA-NC-1.0
+```
 
 ---
 
-### 5. DISCLAIMER OF WARRANTY
+## Manifests Without Comments (e.g., JSON)
+Plain JSON does not support comments. Suggested approaches:
+- put the license file in the repo (e.g., LICENSE-ULDA-NC-1.0.txt) and set
+  "license": "SEE LICENSE IN LICENSE-ULDA-NC-1.0.txt" in package.json;
+- or include a short note in README and in your build tooling.
 
-THE SOFTWARE IS PROVIDED **“AS IS”** WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
-WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. LICENSEE ASSUMES THE
-ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE.
+**package.json example:**
+```json
+{
+  "name": "@zeroam/yourpkg",
+  "version": "1.0.0",
+  "license": "SEE LICENSE IN LICENSE-ULDA-NC-1.0.txt"
+}
+```
 
----
-
-### 6. LIMITATION OF LIABILITY
-
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR’S TOTAL LIABILITY ARISING OUT OF OR RELATED TO THIS LICENSE SHALL NOT
-EXCEED THE LICENSE FEE ACTUALLY PAID BY LICENSEE. IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
-SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOSS OF PROFITS, DATA, OR GOODWILL, EVEN IF ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGES.
-
----
-
-### 7. SUPPORT & UPDATES
-
-This License does not obligate Licensor to provide maintenance, support, or updates. Any such services may be offered
-under a separate agreement.
-
----
-
-### 8. TERM & TERMINATION
-
-8.1 **Term.** This License is effective from the date Licensee accepts it and remains in force until terminated.
-8.2 **Termination for Breach.** Any material breach automatically terminates this License.
-8.3 **Effect of Termination.** Upon termination, Licensee must cease use and destroy or permanently delete all copies of
-the Software and Modified Versions in its possession or control. Sections 2, 4–6, 8, 9, and 10 survive termination.
-
----
-
-### 9. GOVERNING LAW & JURISDICTION
-
-This License shall be governed by and construed in accordance with the laws of **Switzerland**, without regard to
-conflict-of-law principles. Any dispute shall be submitted to the exclusive jurisdiction of the competent courts of
-Switzerland.
-
----
-
-### 10. ENTIRE AGREEMENT; SEVERABILITY
-
-This License constitutes the entire agreement between the parties regarding the Software and supersedes all prior
-agreements or understandings. If any provision is held unenforceable, the remaining provisions shall remain in full
-force and effect.
-
----
-
-*END OF TERMS*
+**NOTICE example for binaries:**
+```
+This product includes components licensed under ULDA-NC-1.0.
+© 2025 Mark Shaposhnik / Shaposhnik Oam & Services IT (d/b/a ZeroAM)
+See the LICENSE-ULDA-NC-1.0.txt file for terms.
+```
