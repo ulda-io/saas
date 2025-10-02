@@ -1,0 +1,25 @@
+{
+  "name": "@zeroam/ulda",
+  "description": "Universal Linear Data Authentication algorithm",
+  "author": "iammarguuss",
+  "license": "ULDA CL",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "version": "1.0.7",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.3",
+    "typescript": "^5",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "npm": "^10.9.2",
+    "socket.io-client": "^4.8.1"
+  }
+}
