@@ -6,8 +6,12 @@
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulda-io/saas.git"
+  },
   "bugs": {
     "url": "https://github.com/ulda-io/saas"
   },
